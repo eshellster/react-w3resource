@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import LoginControl from "./component/LoginControl";
+import Page from "./component/WarningBanner";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <LoginControl />
+        <Page />
       </header>
     </div>
   );

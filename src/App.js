@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import Toggle from "./component/Toggle";
+import Greeting from "./component/Greeting";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Toggle />
+        <Greeting isLoggedIn={true} />
       </header>
     </div>
   );

@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import Clock from "./component/Clock";
+import Toggle from "./component/Toggle";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Clock />
+        <Toggle />
       </header>
     </div>
   );

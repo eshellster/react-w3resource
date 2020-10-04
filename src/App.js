@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import Greeting from "./component/Greeting";
+import LoginControl from "./component/LoginControl";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Greeting isLoggedIn={true} />
+        <LoginControl />
       </header>
     </div>
   );

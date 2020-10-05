@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import Reservation from "./component/form/Reservation";
+import { WelcomeDialog } from "./component/CompositionsAndInheritance/WelcomeDialog";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Reservation />
+        <WelcomeDialog />
       </header>
     </div>
   );

@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import Page from "./component/WarningBanner";
+import Calculator from "./component/Calculator";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Page />
+        <Calculator />
       </header>
     </div>
   );

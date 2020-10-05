@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import EssayForm from "./component/form/EssayForm";
 import NameForm from "./component/form/NameForm";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NameForm />
+        <EssayForm />
       </header>
     </div>
   );

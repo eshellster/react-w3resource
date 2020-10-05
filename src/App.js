@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import Calculator from "./component/Calculator";
+import NameForm from "./component/form/NameForm";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Calculator />
+        <NameForm />
       </header>
     </div>
   );

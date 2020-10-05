@@ -8,7 +8,7 @@ class NameForm extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
   handleChange(event) {
-    this.setState({ value: event.target.value });
+    this.setState({ value: event.target.value.toUpperCase() });
   }
   handleSubmit(event) {
     alert("A name was submitted: " + this.state.value);

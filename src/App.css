@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -50,7 +50,7 @@
 }
 
 .SplitPane-right {
-  padding: 50px;
+  padding: 0px;
   border-left: solid 5px skyblue;
 }
 

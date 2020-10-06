@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
-import { WelcomeDialog } from "./component/CompositionsAndInheritance/WelcomeDialog";
+import FilterableProductTable from "./component/thinkingReact/FilteravleProductTable";
+import jsonData from "./component/thinkingReact/products.json";
 
 function App() {
+  const products = [...jsonData.products];
   return (
     <div className="App">
       <header className="App-header">
-        <WelcomeDialog />
+        <FilterableProductTable productsJson={products} />
       </header>
     </div>
   );

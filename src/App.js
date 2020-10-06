@@ -4,7 +4,7 @@ import FilterableProductTable from "./component/thinkingReact/FilteravleProductT
 import jsonData from "./component/thinkingReact/products.json";
 
 function App() {
-  const products = [...jsonData.products];
+  const products = jsonData.products;
   return (
     <div className="App">
       <header className="App-header">

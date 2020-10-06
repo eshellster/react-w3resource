@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import { WelcomeDialog } from "./component/CompositionsAndInheritance/WelcomeDialog";
+import Main from "./component/CompositionsAndInheritance/SplitPane";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <WelcomeDialog />
+        <Main />
       </header>
     </div>
   );

@@ -41,8 +41,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Stocks />
-        <Users />
+        <Stocks title="Stocks" />
+        <Users title="User" />
       </header>
     </div>
   );

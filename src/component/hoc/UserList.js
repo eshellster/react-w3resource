@@ -12,6 +12,7 @@ class UserList extends Component {
   render() {
     return (
       <div className="container">
+        <h1>- {this.props.title} -</h1>
         <table className="table table-striped">
           <thead>
             <tr>

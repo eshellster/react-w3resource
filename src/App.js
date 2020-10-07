@@ -1,16 +1,13 @@
 import React from "react";
 import "./App.css";
-import FancyButton from "./component/forwardingRefs/FancyButton";
+import Hoc from "./component/hoc/HOC";
 
 function App() {
-  const ref = React.createRef();
   return (
     <div className="App">
-      <header className="App-header">
-        <FancyButton ref={ref}>Click me!</FancyButton>
-      </header>
+      <header className="App-header">Higher-Order Component Tutorial</header>
     </div>
   );
 }
 
-export default App;
+export default Hoc(App);

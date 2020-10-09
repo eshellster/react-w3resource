@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const MouseTracker = () => {
+const Mouse = () => {
   const [state, setState] = useState({ x: 0, y: 0 });
 
   const handleMouseMove = (event) => {
@@ -8,10 +8,18 @@ export const MouseTracker = () => {
   };
   return (
     <div style={{ height: "100%" }} onMouseMove={handleMouseMove}>
-      <h1>Move the mouse around</h1>
       <p>
         The current mouse position is ({state.x}, {state.y})
       </p>
+    </div>
+  );
+};
+
+export const MouseTracker = () => {
+  return (
+    <div>
+      <h1>Move the mouse around!</h1>
+      <Mouse />
     </div>
   );
 };

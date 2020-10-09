@@ -8,7 +8,7 @@ export const MouseTracker = () => {
   };
   return (
     <div style={{ height: "100%" }} onMouseMove={handleMouseMove}>
-      <h1>Move the mouse around!</h1>
+      <h1>Move the mouse around</h1>
       <p>
         The current mouse position is ({state.x}, {state.y})
       </p>
